@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: Dump GitHub Context
         id: github_context_step
-        run: echo '${{ toJSON(github) }}'
+        run: echo '${{ toJSON(job) }}'

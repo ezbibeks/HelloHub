@@ -17,3 +17,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo 'Hi ${{ env.mascot }}'  # Hi Tux
+        env:
+          mascot: Octocat
